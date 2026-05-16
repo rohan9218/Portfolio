@@ -2,11 +2,12 @@ import { Code, Cpu, Database, Download, ExternalLink, Github, Globe, Mail, Serve
 import { motion } from 'motion/react';
 import { TypeAnimation } from 'react-type-animation';
 import { cn } from "../lib/utils";
+import profileImage from '../assets/photo.jpeg';
 
 export default function Hero() {
-  const profileImage =
+  {/*const profileImage =
     'C:/Users/rohan/Downloads/rohan-suresh-desai-portfolio/src/assets/photo.jpeg';
-
+*/}
   const resumeLink =
     'https://drive.google.com/file/d/1EWbUhn5MQllxw89e737lFzWV_yBEz4h0/view';
 
